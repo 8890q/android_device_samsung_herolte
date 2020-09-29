@@ -65,4 +65,11 @@ setup_vendor "${DEVICE}" "${VENDOR}" "${LINEAGE_ROOT}" true "${CLEAN_VENDOR}"
 extract "${MY_DIR}/proprietary-files.txt" "${SRC}" \
         "${KANG}" --section "${SECTION}"
 
+# Fix proprietary blobs
+BLOB_ROOT="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
+
+# Replace protobuf with vndk29 compat libs for specified libs
+sed -i "s/libprotobuf-cpp-lite.so/libprotobuf-cpp-li10.so/g" $BLOB_ROOT/vendor/lib/libMcClient.so
+sed -i "s/libprotobuf-cpp-lite.so/libprotobuf-cpp-li10.so/g" $BLOB_ROOT/vendor/lib64/libMcClient.so
+
 "${MY_DIR}/setup-makefiles.sh"
