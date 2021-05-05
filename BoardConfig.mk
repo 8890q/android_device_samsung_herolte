@@ -43,7 +43,7 @@ TARGET_LD_SHIM_LIBS += \
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 # Vendor security patch level
-VENDOR_SECURITY_PATCH := 2020-08-01
+VENDOR_SECURITY_PATCH := 2021-04-01
 
 # inherit from the proprietary version
 include vendor/samsung/herolte/BoardConfigVendor.mk
