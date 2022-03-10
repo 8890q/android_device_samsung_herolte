@@ -755,10 +755,10 @@
 
 	<!-- NB volume -->
 	<path name="gain-incall_nb-handset">
-		<ctl name="HPOUT3L Input 1 Volume" value="32" />
-		<ctl name="HPOUT3R Input 1 Volume" value="32" />
-		<ctl name="HPOUT3L Input 2 Volume" value="32" />
-		<ctl name="HPOUT3R Input 2 Volume" value="32" />
+		<ctl name="HPOUT3L Input 1 Volume" value="22" />
+		<ctl name="HPOUT3R Input 1 Volume" value="22" />
+		<ctl name="HPOUT3L Input 2 Volume" value="22" />
+		<ctl name="HPOUT3R Input 2 Volume" value="22" />
 		<param name="DSP4 XM f010:0" value="0 0 0 1 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 5 0 0 0 6 0 0 0 9 0 0 0 11 0 0 0 13 0 0 0 7 0 0 0 3 0 0 0 22 0 0 0 3 0 0 0 0 0 255 253 172 0 255 252 201 0 255 253 38 0 255 254 227 0 0 1 102 0 0 3 154 0 0 68 122 0 0 0 3 0 0 0 3 0 0 0 0 0 0 0 0 0 0 82 8 0 0 39 16 0 0 0 12 0 0 5 220 0 0 7 208 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 12" />
 		<param name="DSP4 XM f010:1" value="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3" />
 	</path>
@@ -914,8 +914,8 @@
 	<!-- CP Call Input volume -->
 	<!-- call default volume -->
 	<path name="gain-incall_default-handset-mic">
-		<ctl name="IN1R Digital Volume" value="128" />
-		<ctl name="IN3L Digital Volume" value="128" />
+		<ctl name="IN1R Digital Volume" value="98" />
+		<ctl name="IN3L Digital Volume" value="98" />
 	</path>
 
 	<!-- NB volume -->
