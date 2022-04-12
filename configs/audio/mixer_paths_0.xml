@@ -872,15 +872,15 @@
 
 	<!-- camcorder input volume -->
 	<path name="gain-camcorder-mic">
-		<ctl name="IN1R Digital Volume" value="130" />
+		<ctl name="IN1R Digital Volume" value="164" />
 		<ctl name="LHPF1 Input 1 Volume" value="32" />
-		<ctl name="IN3L Digital Volume" value="128" />
+		<ctl name="IN3L Digital Volume" value="164" />
 		<ctl name="LHPF2 Input 1 Volume" value="32" />
 	</path>
 
 	<!-- voice_control_with_okgoogle input volume -->
 	<path name="gain-voice_control_with_okgoogle-mic">
-		<ctl name="IN1R Digital Volume" value="150" />
+		<ctl name="IN1R Digital Volume" value="164" />
 		<param name="DSP6 ZM 9000d:0" value="0 112 0 0 0 0 0 16 0 0 0 1" />
 		<param name="DSP6 ZM 24:0" value="0 0 128 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 176 0 0 5 128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30 0 0 0 0" />
 	</path>
@@ -1071,10 +1071,10 @@
 		<path name="gain-communication-speaker-mic"/>
 	</path>
 
-    <path name="headset-mic">
+	<path name="headset-mic">
 		<path name="communication-headset-mic"/>
 		<path name="gain-communication-headset-mic"/>
-    </path>
+	</path>
 
 	<path name="voice-mic">
 		<path name="incall_default-handset-mic"/>
