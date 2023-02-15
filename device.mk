@@ -25,6 +25,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libbauthtzcommon_shim
 
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@2.0-service.samsung
+
 # Wi-Fi
 PRODUCT_PACKAGES += \
     WifiOverlay
