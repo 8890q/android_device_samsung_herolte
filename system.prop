@@ -1,0 +1,2 @@
+# Bluetooth stack configuration is loaded by core init.
+bluetooth.ble.vnd.included=true
