@@ -92,25 +92,25 @@
 	<ctl name="DSP3 Aux 1" value="None" />
 
 	<!-- EQs Filter setting -->
-	<ctl name="EQ1 Coefficients" value="0 0 15 209 3 253 0 188 30 244 241 7 4 12 4 18 29 30 242 193 4 10 10 232 24 73 246 214 4 10 27 18 6 216 5 182 64 0 0 0" />
+	<ctl name="EQ1 Coefficients" value="00 00 0f d1 03 fd 00 bc 1e f4 f1 07 04 0c 04 12 1d 1e f2 c1 04 0a 0a e8 18 49 f6 d6 04 0a 1b 12 06 d8 05 b6 40 00 00 00" />
 	<ctl name="EQ1 B1 Volume" value="12" />
 	<ctl name="EQ1 B2 Volume" value="12" />
 	<ctl name="EQ1 B3 Volume" value="12" />
 	<ctl name="EQ1 B4 Volume" value="12" />
 	<ctl name="EQ1 B5 Volume" value="12" />
-	<ctl name="EQ2 Coefficients" value="0 0 14 252 3 255 4 16 20 219 249 109 4 10 37 84 25 146 242 231 4 10 11 127 19 112 248 160 4 10 34 40 6 161 5 168 64 0 0 0" />
+	<ctl name="EQ2 Coefficients" value="00 00 0e fc 03 ff 04 10 14 db f9 6d 04 0a 25 54 19 92 f2 e7 04 0a 0b 7f 13 70 f8 a0 04 0a 22 28 06 a1 05 a8 40 00 00 00" />
 	<ctl name="EQ2 B1 Volume" value="12" />
 	<ctl name="EQ2 B2 Volume" value="12" />
 	<ctl name="EQ2 B3 Volume" value="7" />
 	<ctl name="EQ2 B4 Volume" value="8" />
 	<ctl name="EQ2 B5 Volume" value="12" />
-	<ctl name="EQ3 Coefficients" value="0 0 14 252 3 255 4 16 22 148 248 40 4 10 32 77 25 146 242 231 4 10 11 127 18 140 249 19 4 10 35 240 6 161 5 168 64 0 0 0 " />
+	<ctl name="EQ3 Coefficients" value="00 00 0e fc 03 ff 04 10 16 94 f8 28 04 0a 20 4d 19 92 f2 e7 04 0a 0b 7f 12 8c f9 13 04 0a 23 f0 06 a1 05 a8 40 00 00 00" />
 	<ctl name="EQ3 B1 Volume" value="12" />
 	<ctl name="EQ3 B2 Volume" value="12" />
 	<ctl name="EQ3 B3 Volume" value="12" />
 	<ctl name="EQ3 B4 Volume" value="7" />
 	<ctl name="EQ3 B5 Volume" value="7" />
-	<ctl name="EQ4 Coefficients" value="0 0 15 209 3 253 0 188 30 244 241 7 4 12 4 18 29 30 242 193 4 10 10 232 24 73 246 214 4 10 27 18 6 216 5 182 64 0 0 0" />
+	<ctl name="EQ4 Coefficients" value="00 00 0f d1 03 fd 00 bc 1e f4 f1 07 04 0c 04 12 1d 1e f2 c1 04 0a 0a e8 18 49 f6 d6 04 0a 1b 12 06 d8 05 b6 40 00 00 00" />
 	<ctl name="EQ4 B1 Volume" value="12" />
 	<ctl name="EQ4 B2 Volume" value="12" />
 	<ctl name="EQ4 B3 Volume" value="12" />
